@@ -24,4 +24,5 @@ class DeezerPlaylistTracks(BaseModel):
 
 
 class DeezerPlaylist(BaseModel):
+    id: int
     tracks: DeezerPlaylistTracks
